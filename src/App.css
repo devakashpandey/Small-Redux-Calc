@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-div{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.input-box{
+   width: 50%;
+   padding: 4px;
+   line-height: 2rem;
+   border: 2px solid green;
+   outline: none;
+   margin-top: 25px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 20px;
+   text-align: center;
+}
+
+button{
+  padding: 2px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 2rem;
+  font-weight: bold;
+  background-color:  rgb(234, 234, 2);
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  background-color: yellow;
+}
+
+.newBtn{
+  background-color:rgb(6, 231, 231);
+}
+
+.newBtn:hover{
+   background-color: aqua;
+}
